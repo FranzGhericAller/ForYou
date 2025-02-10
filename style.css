@@ -465,5 +465,62 @@ button:hover {
         button:hover {
             background-color: #e63950;
         }
-
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 600px;
+        }
+        .video-box {
+            width: 100%;
+            height: 300px;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        video {
+            width: 100%;
+            height: 100%;
+        }
+        .song-title {
+            margin-top: 15px;
+            font-size: 20px;
+            color: #ff4d6d;
+            font-weight: bold;
+        }
+        .back-button {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #ff4d6d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #e63950;
+        }
     
