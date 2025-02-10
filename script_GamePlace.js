@@ -21,6 +21,6 @@
         }
 
         function redirectToHome() {
-            window.location.href = "index.html"; // Redirect to your main page
+            window.location.href = "formal.html"; // Redirect to your main page
         }
    
