@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Favorite Number</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Guess My Favorite Number! 🎯</h1>
+        <p>Can you guess my favorite number between 1 and 20?</p>
+        <input type="number" id="userGuess" min="1" max="20" placeholder="Enter your guess" />
+        <button onclick="checkGuess()">Guess</button>
+        <div class="message" id="message"></div>
+        <button class="proceed-btn" id="proceedBtn" onclick="redirectToHome()">Proceed</button>
+    </div>
+<script src="script_Game.js"></script>
+    
+
+</body>
+</html>
