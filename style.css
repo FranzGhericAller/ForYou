@@ -465,4 +465,51 @@ button:hover {
         button:hover {
             background-color: #e63950;
         }
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: pink;
+            margin: 0;
+        }
+        .heart {
+            width: 200px;
+            height: 200px;
+            position: relative;
+            background-color: red;
+            transform: rotate(-45deg);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            animation: heartbeat 1.5s infinite;
+        }
+        .heart::before, .heart::after {
+            content: "";
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .heart::before {
+            top: -100px;
+            left: 0;
+        }
+        .heart::after {
+            left: 100px;
+            top: 0;
+        }
+        .heart p {
+            color: white;
+            text-align: center;
+            font-size: 18px;
+            transform: rotate(45deg);
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1) rotate(-45deg); }
+            50% { transform: scale(1.1) rotate(-45deg); }
+            100% { transform: scale(1) rotate(-45deg); }
+        }
  
