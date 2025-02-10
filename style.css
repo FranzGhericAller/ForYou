@@ -54,7 +54,7 @@ button {
 .no:hover {
     background-color: #222;
 }
-.heart {
+.heart1 {
     font-size: 40px;
     animation: heartbeat 1.5s infinite;
 }
