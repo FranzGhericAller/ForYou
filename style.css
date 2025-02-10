@@ -9,7 +9,7 @@ body {
     height: 100vh;
     margin: 0;
     position: relative;
-    overflow-y: auto;
+    
 }
 .container {
     background: white;
@@ -225,7 +225,7 @@ body {
             justify-content: center;
             align-items: center;
             height: 100vh;
-            overflow-y: auto
+            
         }
         .container {
             background: white;
